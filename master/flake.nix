@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-unalix-master.flake = false;
+  inputs.src-unalix-master.ref   = "refs/heads/master";
   inputs.src-unalix-master.owner = "AmanoTeam";
-  inputs.src-unalix-master.ref   = "master";
   inputs.src-unalix-master.repo  = "Unalix-nim";
   inputs.src-unalix-master.type  = "github";
   
